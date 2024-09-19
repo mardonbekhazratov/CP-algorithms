@@ -44,8 +44,8 @@ struct SegTree{
         if(l>=ql && qr>=r) return tree[v];
 
         int mid=(l+r)>>1;
-        int a=get(v<<1,l,mid,ql,qr);
-        int b=get(v<<1|1,mid,r,ql,qr);
+        T a=get(v<<1,l,mid,ql,qr);
+        T b=get(v<<1|1,mid,r,ql,qr);
         return merge(a,b);
     }
 
