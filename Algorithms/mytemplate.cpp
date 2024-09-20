@@ -59,7 +59,6 @@ const int INF=1e9;
 const ll INFLL=2e18;
 
 // #define LOCAL
-#define TESTCASES
 
 // #define int ll
 
@@ -68,6 +67,8 @@ const ll INFLL=2e18;
 void solve( const int &test_case ){
     ;
 }
+
+#define TESTCASES
 
 signed main(){
 
